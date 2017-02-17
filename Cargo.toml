@@ -1,0 +1,11 @@
+[package]
+name = "week5_ex7"
+version = "0.1.0"
+authors = ["Mike Lubinets <lubinetsm@yandex.ru>"]
+
+[dependencies]
+nix = "0.7.0"
+rand = "0.3"
+
+[replace]
+"libc:0.2.20" = { git = "https://github.com/rust-lang/libc" }
