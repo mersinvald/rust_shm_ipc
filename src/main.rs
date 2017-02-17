@@ -1,4 +1,3 @@
-#![feature(field_init_shorthand)]
 extern crate nix;
 extern crate rand;
 

@@ -13,8 +13,8 @@ pub struct Process {
 }
 
 impl Process {
-    pub fn new(pid: i32) -> Process {
-        Process { pid }
+    fn new(pid: i32) -> Process {
+        Process { pid: pid }
     }
 
     pub fn pid(&self) -> i32 {
