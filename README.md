@@ -1,4 +1,5 @@
 # SHM IPC example in Rust
+[![Build Status](https://travis-ci.org/mersinvald/rust_shm_ipc.svg?branch=master)](https://travis-ci.org/mersinvald/rust_shm_ipc)
 
 This is an example implementatation of synchronized queue for inter-process communication in shared memory 
 for UNIX POSIX-complaint operating systems.
